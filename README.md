@@ -1,5 +1,11 @@
 ## About
-This kernel module Reveal
+The provided code is a kernel module that demonstrates how to read the contents of a file from the kernel space.
+- It initializes by opening a specified file
+- Allocating memory for a buffer
+- Reading the file contents into the buffer using kernel_read()
+- Printing the contents to the kernel log
+
+It serves as an example of how to access and manipulate files within the kernel environment.
 ```
 guy@guy-VirtualBox:~/projects/reveal_fs$ sudo dmesg
 [ 6012.141197] Module unloaded

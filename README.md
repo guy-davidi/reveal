@@ -16,5 +16,3 @@ cat: text: Permission denied
 guy@guy-VirtualBox:~/projects/reveal_fs$ ll text 
 -rw------- 1 600 guy 14 May 18 19:44 text
 ```
-
-
